@@ -1,0 +1,42 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 50,
+        "width": 50
+    },
+    "display": "Timer",
+    "edit_mode_image": "//s3.amazonaws.com/appforest_uf/f1528323451669x663840700872242500/Stopwatch_Timer-512.png",
+    "events": {
+        "AAE": {
+            "caption": "finished",
+            "name": "finished"
+        }
+    },
+    "fields": {
+        "AAD": {
+            "caption": "milliseconds",
+            "default_val": 0,
+            "editor": "DynamicValue",
+            "name": "milliseconds",
+            "optional": true,
+            "rank": 0,
+            "value": "number"
+        }
+    },
+    "icon": "ion-android-alarm-clock",
+    "property_applications": {
+        "MinWidth": false,
+        "resizable": false
+    },
+    "states": {
+        "AAG": {
+            "caption": "getString",
+            "initialization_code": {
+                "fn": "function(properties, context) {  \n  return '00:00:00';\n}"
+            },
+            "name": "getString",
+            "value": "text"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "caption": "init",
+    "fields": {
+        "AAJ": {
+            "caption": "milliseconds",
+            "default_val": 60000,
+            "editor": "DynamicValue",
+            "name": "milliseconds",
+            "rank": 0,
+            "value": "number"
+        }
+    }
+}
